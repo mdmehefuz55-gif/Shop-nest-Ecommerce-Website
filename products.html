@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Nest - Products</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="products">
+    <header class="site-header">
+      <div class="container nav-container">
+        <div class="logo">Shop Nest</div>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="products.html" class="nav-link active">Products</a>
+          <a href="cart.html" class="nav-link">Cart</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h1 class="section-title">All Products</h1>
+        <p class="section-subtitle">
+          Browse our sample products below and add them to your cart. This is a
+          front-end only demo, so no real payments are processed.
+        </p>
+        <!-- Full product list will be rendered here with JavaScript -->
+        <div id="products-list" class="products-grid"></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> Shop Nest. Demo e-commerce website for learning purposes.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,15 @@
+﻿# OS metadata & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary & build files
+node_modules/
+dist/
+build/
+*.log
+*.tmp

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Nest - Home</title>
+    <!-- Main stylesheet for the whole website -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Main JavaScript file (runs after HTML is parsed) -->
+    <script src="script.js" defer></script>
+  </head>
+  <!-- data-page helps the script know which page is loaded -->
+  <body data-page="home">
+    <!-- Site header with logo and navigation -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <div class="logo">Shop Nest</div>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="cart.html" class="nav-link">Cart</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero / introduction section -->
+      <section class="hero">
+        <div class="container hero-content">
+          <h1>Shop Nest</h1>
+          <h2>Cloud Based Online Store</h2>
+          <p>
+            Welcome to Shop Nest, a simple e-commerce demo built with HTML, CSS,
+            and JavaScript. It is perfect for college cloud computing projects
+            and can be deployed easily to GitHub Pages, Netlify, or AWS.
+          </p>
+          <a href="products.html" class="btn primary-btn">Browse Products</a>
+        </div>
+      </section>
+
+      <!-- Featured products section (a smaller selection of items) -->
+      <section class="section">
+        <div class="container">
+          <h3 class="section-title">Featured Products</h3>
+          <!-- Products will be inserted here using JavaScript -->
+          <div id="featured-products" class="products-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer shown on every page -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> Shop Nest. Demo e-commerce website for learning purposes.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
